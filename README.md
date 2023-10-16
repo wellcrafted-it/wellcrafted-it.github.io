@@ -1,46 +1,80 @@
-# Getting Started with Create React App
+# WellCrafted IT portfolio website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![WellCrafted IT Logo](./src/assets/logo-light.svg)
 
-## Available Scripts
+This site showcases my portfolio website. Built with React, it utilizes the `create-react-app` template for ease of development and deployment.
 
-In the project directory, you can run:
+## 🔗Live Demo
 
-### `npm start`
+[https://wellcrafted.it](https://wellcrafted.it)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+- Node.js
+- npm
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### :floppy_disk: Clone & Setup
 
-### `npm run build`
+```bash
+# Clone the repository
+git clone https://github.com/WellCraftedIT/portfolio-website.git
+cd portfolio-website
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install the dependencies
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Run the app in development mode
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open [http://localhost:3000](http://localhost:3000) in your browser. The page will auto-reload upon edits.
 
-### `npm run eject`
+### 🛠️ Build
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To prepare for deployment, build the project for production:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This optimizes the React app for best performance in the build folder.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📝 License
 
-## Learn More
+This project is under the Apache 2.0. For full details, see the [LICENSE](/LICENSE) file.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Copy code
+git clone https://github.com/WellCraftedIT/portfolio-website.git
+cd portfolio-website
+Install dependencies
+Copy code
+npm install
+Start the development server
+sql
+Copy code
+npm start
+This command runs the app in development mode. Open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Building for production
+arduino
+Copy code
+npm run build
+This command builds the app for production to the build folder. It bundles React in production mode and optimizes the build for the best performance.
+
+Deployment
+The site is hosted via [Your Hosting Provider]. To deploy changes:
+
+Build the project for production using npm run build.
+Follow your hosting provider's instructions to deploy the build directory.
+Contributing
+For any contributions, please create a new branch and submit a pull request. Make sure to describe the changes made in detail.
+
+Support & Feedback
+For any questions, support, or feedback, please contact us.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Designed with :heart: by WellCrafted IT
