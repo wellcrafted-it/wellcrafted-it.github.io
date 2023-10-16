@@ -19,8 +19,8 @@ This site showcases my portfolio website. Built with React, it utilizes the `cre
 
 ```bash
 # Clone the repository
-git clone https://github.com/WellCraftedIT/portfolio-website.git
-cd portfolio-website
+git clone https://github.com/steinwelberg/wellcrafted.it.git
+cd wellcrafted.it
 
 # Install the dependencies
 npm install
