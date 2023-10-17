@@ -24,7 +24,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Static render
-        uses: brycedorn/react-snap-action@v1
+        uses: brycedorn/react-snap-action@v1.0.2
         with:
           output: "build"
       - name: Upload site Artifact
