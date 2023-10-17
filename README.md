@@ -2,7 +2,7 @@
 
 ![WellCrafted IT Logo](./src/assets/logo-light.svg)
 
-This site showcases my portfolio website. Built with React, it utilizes the `create-react-app` template for ease of development and deployment.
+This site showcases my portfolio website. Built with React, Tailwind CSS and Flowbite. It utilizes the `create-react-app` template for ease of development and deployment.
 
 ## 🔗 Live Demo
 
