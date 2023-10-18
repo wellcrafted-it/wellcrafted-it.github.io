@@ -1,4 +1,4 @@
-# WellCrafted IT portfolio website
+# WellCrafted IT website
 
 [![Build & Deploy](https://github.com/wellcrafted-it/wellcrafted-it.github.io/actions/workflows/main.yml/badge.svg)](https://github.com/wellcrafted-it/wellcrafted-it.github.io/actions/workflows/main.yml)
 
