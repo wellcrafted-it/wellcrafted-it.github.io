@@ -1,5 +1,7 @@
 # WellCrafted IT portfolio website
 
+[![Build & Deploy](https://github.com/wellcrafted-it/wellcrafted-it.github.io/actions/workflows/main.yml/badge.svg)](https://github.com/wellcrafted-it/wellcrafted-it.github.io/actions/workflows/main.yml)
+
 ![WellCrafted IT Logo](./src/assets/logo-light.svg)
 
 This site showcases my portfolio website. Built with React, Tailwind CSS and Flowbite. It utilizes the `create-react-app` template for ease of development and deployment.
