@@ -26,7 +26,7 @@ const SkillsComponent: React.FC = () => {
     //   id: Math.random().toString(),
     //   icon: "️📺",
     //   name: "Front-End Development",
-    //   description: "Architect",
+    //   description: "FE description",
     //   frameworks: ["React", "Bootstrap", "Tailwind CSS"],
     //   languages: ["Html", "CSS", "JavaScript", "TypeScript"],
     // },
@@ -58,10 +58,10 @@ const SkillsComponent: React.FC = () => {
     {
       id: Math.random().toString(),
       icon: "🔐",
-      name: "Identity & Access Management",
+      name: "(Customer) Identity & Access Management",
       description:
         "Having built a Customer Identity and Access management solution from the ground up, I am adept at implementing and managing protocols like OIDC and OAuth. My expertise ensures seamless Single Sign-On (SSO) experiences, paired with secure Single Log-Out (SLO) processes. Navigating the intricate landscape of identity authentication and authorization, I focus on creating robust and user-friendly solutions that prioritize both security and convenience.",
-      standards: ["OAuth 2.0", "OpenID Connect", "SAML"],
+      standards: ["OAuth 2.x", "OpenID Connect", "SAML 2.0", "WS-Federation"],
     },
   ];
   return (
