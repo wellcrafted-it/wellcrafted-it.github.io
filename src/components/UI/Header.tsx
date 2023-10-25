@@ -1,6 +1,6 @@
 import logoLight from "../../assets/logo-light.svg";
 import logoDark from "../../assets/logo-dark.svg";
-import React, { FormEvent, useEffect } from "react";
+import React from "react";
 import { DarkThemeToggle, Navbar, useThemeMode } from "flowbite-react";
 
 const Header: React.FC = () => {

@@ -1,5 +1,4 @@
-import { Button, Label, Textarea, TextInput } from "flowbite-react";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import H2 from "../UI/H2";
 
 const Contact = () => {
