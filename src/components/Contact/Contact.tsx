@@ -33,7 +33,7 @@ const Contact = () => {
                 className="text-blue-500 visited:text-purple-600"
                 href="tel:0031639110574"
               >
-                +31 (0)6 39 110 574§
+                +31 (0)6 39 110 574
               </a>
             </p>
             <p>&nbsp;</p>
