@@ -19,9 +19,6 @@ const Header: React.FC = () => {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Navbar.Link href="#">
-            <p>Home</p>
-          </Navbar.Link>
           <Navbar.Link href="#about-me">About me</Navbar.Link>
           <Navbar.Link href="#services">Services</Navbar.Link>
           <Navbar.Link href="#skills">Skills</Navbar.Link>
