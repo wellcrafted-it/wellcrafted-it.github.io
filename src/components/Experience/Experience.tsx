@@ -11,7 +11,7 @@ const Experience: React.FC = () => {
         <Timeline.Item>
           <Timeline.Point icon={HiOfficeBuilding} />
           <Timeline.Content>
-            <Timeline.Time>September 2021 &mdash; September 2023</Timeline.Time>
+            <Timeline.Time>July 2021 &mdash; September 2023</Timeline.Time>
             <Timeline.Title>CTO Product @ OneWelcome</Timeline.Title>
             <Timeline.Body>
               <p>
@@ -26,7 +26,7 @@ const Experience: React.FC = () => {
         <Timeline.Item>
           <Timeline.Point icon={HiOfficeBuilding} />
           <Timeline.Content>
-            <Timeline.Time>Jun 2013 &mdash; September 2021</Timeline.Time>
+            <Timeline.Time>Jun 2013 &mdash; July 2021</Timeline.Time>
             <Timeline.Title>CTO @ Onegini</Timeline.Title>
             <Timeline.Body>
               <p>
