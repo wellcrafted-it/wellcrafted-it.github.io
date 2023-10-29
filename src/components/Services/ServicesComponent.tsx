@@ -14,29 +14,28 @@ const ServicesComponent: React.FC = () => {
             Is your company in need of a Chief-Technology-Officer? I could help
             you with the following areas.
           </p>
-          <p>
-            <ul className="list-outside list-disc pl-4">
-              <li key="1">
-                <strong>Technology Strategy:</strong> Providing assistance in
-                defining and executing a strategy that enables your business to
-                grow through technology.
-              </li>
-              <li key="2">
-                <strong>Team Guidance:</strong> Providing guidance and advice to
-                optimize your internal technology team or assist in setting up a
-                new team.
-              </li>
-              <li>
-                <strong>Innovation and Trends:</strong> Keeping business
-                up-to-date with the latest technological trends and ensure you
-                always stay ahead of the competition.
-              </li>
-              <li key="3">
-                <strong>Risk Management:</strong> Identifying and mitigating
-                technological risks that could harm your business.
-              </li>
-            </ul>
-          </p>
+
+          <ul className="list-outside list-disc pl-4">
+            <li key="1">
+              <strong>Technology Strategy:</strong> Providing assistance in
+              defining and executing a strategy that enables your business to
+              grow through technology.
+            </li>
+            <li key="2">
+              <strong>Team Guidance:</strong> Providing guidance and advice to
+              optimize your internal technology team or assist in setting up a
+              new team.
+            </li>
+            <li>
+              <strong>Innovation and Trends:</strong> Keeping business
+              up-to-date with the latest technological trends and ensure you
+              always stay ahead of the competition.
+            </li>
+            <li key="3">
+              <strong>Risk Management:</strong> Identifying and mitigating
+              technological risks that could harm your business.
+            </li>
+          </ul>
         </div>
       ),
     },
