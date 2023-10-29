@@ -28,7 +28,7 @@ const Header: React.FC = () => {
         <Navbar.Collapse>
           <Navbar.Link
             href="#about-me"
-            onClick={(event) => {
+            onClick={() => {
               handleNavbarClick("about-me");
             }}
           >
@@ -36,7 +36,7 @@ const Header: React.FC = () => {
           </Navbar.Link>
           <Navbar.Link
             href="#services"
-            onClick={(event) => {
+            onClick={() => {
               handleNavbarClick("services");
             }}
           >
@@ -44,7 +44,7 @@ const Header: React.FC = () => {
           </Navbar.Link>
           <Navbar.Link
             href="#skills"
-            onClick={(event) => {
+            onClick={() => {
               handleNavbarClick("skills");
             }}
           >
@@ -52,7 +52,7 @@ const Header: React.FC = () => {
           </Navbar.Link>
           <Navbar.Link
             href="#experience"
-            onClick={(event) => {
+            onClick={() => {
               handleNavbarClick("experience");
             }}
           >
@@ -60,7 +60,7 @@ const Header: React.FC = () => {
           </Navbar.Link>
           <Navbar.Link
             href="#contact"
-            onClick={(event) => {
+            onClick={() => {
               handleNavbarClick("contact");
             }}
           >
