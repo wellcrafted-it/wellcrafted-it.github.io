@@ -10,7 +10,7 @@
     "@types/jest": "^29.5.11",
     "@types/node": "^18.19.3",
     "@types/react": "^18.2.45",
-    "@types/react-dom": "^18.2.14",
+    "@types/react-dom": "^18.2.18",
     "flowbite": "^2.2.1",
     "flowbite-react": "^0.7.2",
     "insights-js": "^1.2.11",
