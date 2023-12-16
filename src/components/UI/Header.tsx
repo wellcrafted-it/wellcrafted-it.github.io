@@ -6,6 +6,7 @@ import { track } from "insights-js";
 
 const Header: React.FC = () => {
   const themeMode = useThemeMode();
+  console.log(`themeMode: ${themeMode.computedMode}`);
   const logo = themeMode.computedMode === "light" ? logoLight : logoDark;
 
   const handleNavbarClick = (page: string) => {
