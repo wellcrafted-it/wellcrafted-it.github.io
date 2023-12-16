@@ -3,7 +3,6 @@ import logoDark from "../../assets/logo-dark.svg";
 import React from "react";
 import { DarkThemeToggle, Navbar, useThemeMode } from "flowbite-react";
 import { track } from "insights-js";
-import { setThemeMode } from "flowbite-react/lib/esm/theme-store";
 
 const Header: React.FC = () => {
   const themeMode = useThemeMode();
