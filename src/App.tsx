@@ -12,7 +12,7 @@ import Experience from "./components/Experience/Experience";
 import Contact from "./components/Contact/Contact";
 
 const App = () => (
-  <Flowbite theme={{ theme: customTheme }}>
+  <Flowbite theme={{ theme: customTheme, mode: "auto" }}>
     <Header />
     <Hero />
     <section>

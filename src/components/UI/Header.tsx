@@ -1,11 +1,27 @@
 import logoLight from "../../assets/logo-light.svg";
 import logoDark from "../../assets/logo-dark.svg";
 import React from "react";
-import { DarkThemeToggle, Navbar, useThemeMode } from "flowbite-react";
+import {
+  DarkThemeToggle,
+  Navbar,
+  ThemeMode,
+  useThemeMode,
+} from "flowbite-react";
 import { track } from "insights-js";
+import { setThemeMode } from "flowbite-react/lib/esm/theme-store";
+
+/**
+ * Get browser prefered color scheme
+ * @returns `light` | `dark`
+ */
+const getModeFromBrowser = (): ThemeMode => {
+  return window.matchMedia?.("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+};
 
 const Header: React.FC = () => {
-  const [mode] = useThemeMode();
+  const mode = getModeFromBrowser();
   const logo = mode === "light" ? logoLight : logoDark;
 
   const handleNavbarClick = (page: string) => {
