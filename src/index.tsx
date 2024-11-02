@@ -1,8 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM, { hydrateRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { hydrate } from "react-dom";
 import { init, trackPages } from "insights-js";
 
 let rootElement = document.getElementById("root") as HTMLElement;
@@ -11,7 +10,7 @@ init("hKyFepFG_w7OWnw6");
 trackPages();
 
 if (rootElement.hasChildNodes()) {
-  hydrate(<App />, rootElement);
+  hydrateRoot(rootElement, <App />);
 } else {
   root.render(
     <React.StrictMode>
