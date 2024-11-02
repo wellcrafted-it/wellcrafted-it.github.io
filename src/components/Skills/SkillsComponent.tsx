@@ -56,6 +56,8 @@ const SkillsComponent: React.FC = () => {
       tools: [
         "AWS",
         "Kubernetes",
+        "Terraform",
+        "Docker",
         "CloudFlare",
         "FluxCD",
         "Backstage",
