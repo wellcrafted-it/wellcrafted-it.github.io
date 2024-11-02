@@ -1,4 +1,3 @@
-import React from "react";
 import H2 from "../UI/H2";
 
 const Contact = () => {

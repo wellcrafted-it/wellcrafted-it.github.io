@@ -29,10 +29,10 @@ cd wellcrafted.it
 npm install
 
 # Run the app in development mode
-npm start
+npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser. The page will auto-reload upon edits.
+Open [http://localhost:5173](http://localhost:5173) in your browser. The page will auto-reload upon edits.
 
 ### 🛠️ Build
 
