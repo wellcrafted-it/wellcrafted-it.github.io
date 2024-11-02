@@ -15,7 +15,7 @@ const ServiceComponent: React.FC<{ service: Service }> = ({ service }) => {
         </span>
         <p>{service.name}</p>
       </h3>
-      <div className="text-left font-normal text-gray-700 dark:text-gray-400  ">
+      <div className="text-left font-normal text-gray-700 dark:text-gray-400">
         {service.description}
       </div>
     </Card>
