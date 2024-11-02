@@ -1,9 +1,10 @@
-import React, { PropsWithChildren, ReactNode } from "react";
+import React, { ReactNode } from "react";
 
 interface Props {
   id?: string;
   children?: ReactNode;
 }
+
 const H2: React.FC<Props> = (props: Props) => {
   return (
     <h2
@@ -15,4 +16,5 @@ const H2: React.FC<Props> = (props: Props) => {
   );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default H2;

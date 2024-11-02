@@ -1,5 +1,3 @@
-import React from "react";
-
 class Skill {
   id: string;
   name: string;
