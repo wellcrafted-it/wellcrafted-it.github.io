@@ -87,7 +87,7 @@ const ServicesComponent: React.FC = () => {
     {
       id: Math.random().toString(),
       icon: "👨‍💻",
-      name: "Lead / Principal engineer",
+      name: "Lead / Principal / Staff engineer",
       description: (
         <div className="space-y-4">
           <p>

@@ -20,18 +20,18 @@ const Experience: React.FC = () => {
                 For SURF, I am building an Internal Developer Platform from
                 scratch. The platform enables developers to build, test, and
                 deploy and maintain their software in a self-service manner. For
-                building software CI/CD components for a range of programming
+                building software, CI/CD components for a range of programming
                 languages are available. These components standardize the build
                 & deploy pipelines. The platform also comes with a number of
                 templates for building applications. The DTAP environments are
-                build as separate kubernetes clusters that come with a number of
+                built as separate kubernetes clusters that come with a number of
                 services like managed Postgres databases, Object store (MinIO) &
                 OpenSearch. Code quality and security are paramount, with
                 Backstage used to provide insights into these aspects. The
                 platform is fully self-hosted. Technologies used: GitLab,
                 Kubernetes, Docker, FluxCD, Backstage, Grafana, Prometheus,
                 Loki, Tempo, MinIO, Cert-Manager, ExternalDNS, Postgres,
-                OpenSearch, Open Policy Agent, and more.
+                OpenSearch, Open Policy Agent, Renovate, and more.
               </p>
             </Timeline.Body>
           </Timeline.Content>

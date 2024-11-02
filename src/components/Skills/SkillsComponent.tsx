@@ -52,7 +52,7 @@ const SkillsComponent: React.FC = () => {
       icon: "☁️",
       name: "DevOps / Cloud",
       description:
-        "Over the course of my career I have built a few Developer Platforms from scratch. These platforms enable developers to build, test, and deploy and maintain their software in a self-service manner. Kubernetes is a central part of these platforms. Hence, the Kubernetes ecosystem is something I am very familiar with. I have mostly worked with AWS, but also have experience with fully self-hosted platforms. Furthermore, I have experience with setting up and managing cloud infrastructure, CI/CD pipelines, and monitoring solutions.",
+        "Over the course of my career I have built a few Developer Platforms from scratch. These platforms enable developers to build, test, and deploy and maintain their software in a self-service manner. Kubernetes is a central part of these platforms. Hence, the Kubernetes ecosystem is something I am very familiar with. I have mostly worked with AWS, but also have experience with fully self-hosted platforms. Furthermore, I have experience with setting up and managing cloud infrastructure, CI/CD pipelines, and monitoring solutions. The platforms I have worked on were all certified with certifications like SOC2 (Type 1 and 2) or ISO27001.",
       tools: [
         "AWS",
         "Kubernetes",
