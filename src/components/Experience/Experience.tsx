@@ -11,6 +11,51 @@ const Experience: React.FC = () => {
         <Timeline.Item>
           <Timeline.Point icon={HiOfficeBuilding} />
           <Timeline.Content>
+            <Timeline.Time>March 2024 &mdash; now</Timeline.Time>
+            <Timeline.Title>
+              Platform engineer @ SURF (Freelance)
+            </Timeline.Title>
+            <Timeline.Body>
+              <p>
+                For SURF, I am building an Internal Developer Platform from
+                scratch. The platform enables developers to build, test, and
+                deploy and maintain their software in a self-service manner. For
+                building software CI/CD components for a range of programming
+                languages are available. These components standardize the build
+                & deploy pipelines. The platform also comes with a number of
+                templates for building applications. The DTAP environments are
+                build as separate kubernetes clusters that come with a number of
+                services like managed Postgres databases, Object store (MinIO) &
+                OpenSearch. Code quality and security are paramount, with
+                Backstage used to provide insights into these aspects. The
+                platform is fully self-hosted. Technologies used: GitLab,
+                Kubernetes, Docker, FluxCD, Backstage, Grafana, Prometheus,
+                Loki, Tempo, MinIO, Cert-Manager, ExternalDNS, Postgres,
+                OpenSearch, Open Policy Agent, and more.
+              </p>
+            </Timeline.Body>
+          </Timeline.Content>
+        </Timeline.Item>
+        <Timeline.Item>
+          <Timeline.Point icon={HiOfficeBuilding} />
+          <Timeline.Content>
+            <Timeline.Time>October 2023 &mdash; March 2024</Timeline.Time>
+            <Timeline.Title>
+              Fullstack engineer @ Steunpunt Levend Erfgoed (Freelance)
+            </Timeline.Title>
+            <Timeline.Body>
+              <p>
+                As a fullstack engineer at Steunpunt Levend Erfgoed, I was
+                responsible for the development of a new platform for pedigree
+                management from front-end to infrastructure. Used technologies:
+                Typescript, Python, AWS Lambda, Postgres, AWS CDK.
+              </p>
+            </Timeline.Body>
+          </Timeline.Content>
+        </Timeline.Item>
+        <Timeline.Item>
+          <Timeline.Point icon={HiOfficeBuilding} />
+          <Timeline.Content>
             <Timeline.Time>July 2021 &mdash; September 2023</Timeline.Time>
             <Timeline.Title>CTO Product @ OneWelcome</Timeline.Title>
             <Timeline.Body>
