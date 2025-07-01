@@ -75,6 +75,7 @@ const Header: React.FC = () => {
             Contact
           </NavbarLink>
         </NavbarCollapse>
+        <div className="hidden md:block">&nbsp;</div>
         {/*<DarkThemeToggle className="hidden md:block" />*/}
       </Navbar>
     </header>
