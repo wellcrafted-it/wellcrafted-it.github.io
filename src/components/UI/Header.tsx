@@ -1,7 +1,15 @@
 import logoLight from "../../assets/logo-light.svg";
 import logoDark from "../../assets/logo-dark.svg";
 import React from "react";
-import { DarkThemeToggle, Navbar, useThemeMode } from "flowbite-react";
+import {
+  DarkThemeToggle,
+  Navbar,
+  NavbarBrand,
+  NavbarCollapse,
+  NavbarLink,
+  NavbarToggle,
+  useThemeMode,
+} from "flowbite-react";
 import { track } from "insights-js";
 
 const Header: React.FC = () => {
@@ -18,56 +26,56 @@ const Header: React.FC = () => {
   return (
     <header>
       <Navbar fluid rounded>
-        <Navbar.Brand href="https://wellcrafted.it">
+        <NavbarBrand href="https://wellcrafted.it">
           <img
             alt="WellCrafted IT logo"
             className="mr-3 h-6 sm:h-9"
             src={logo}
           />
-        </Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse>
-          <Navbar.Link
+        </NavbarBrand>
+        <NavbarToggle />
+        <NavbarCollapse>
+          <NavbarLink
             href="#about-me"
             onClick={() => {
               handleNavbarClick("about-me");
             }}
           >
             About me
-          </Navbar.Link>
-          <Navbar.Link
+          </NavbarLink>
+          <NavbarLink
             href="#services"
             onClick={() => {
               handleNavbarClick("services");
             }}
           >
             Services
-          </Navbar.Link>
-          <Navbar.Link
+          </NavbarLink>
+          <NavbarLink
             href="#skills"
             onClick={() => {
               handleNavbarClick("skills");
             }}
           >
             Skills
-          </Navbar.Link>
-          <Navbar.Link
+          </NavbarLink>
+          <NavbarLink
             href="#experience"
             onClick={() => {
               handleNavbarClick("experience");
             }}
           >
             Experience
-          </Navbar.Link>
-          <Navbar.Link
+          </NavbarLink>
+          <NavbarLink
             href="#contact"
             onClick={() => {
               handleNavbarClick("contact");
             }}
           >
             Contact
-          </Navbar.Link>
-        </Navbar.Collapse>
+          </NavbarLink>
+        </NavbarCollapse>
         <DarkThemeToggle className="hidden md:block" />
       </Navbar>
     </header>
