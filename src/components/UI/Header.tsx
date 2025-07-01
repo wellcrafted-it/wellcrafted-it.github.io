@@ -2,7 +2,6 @@ import logoLight from "../../assets/logo-light.svg";
 import logoDark from "../../assets/logo-dark.svg";
 import React from "react";
 import {
-  DarkThemeToggle,
   Navbar,
   NavbarBrand,
   NavbarCollapse,
@@ -76,7 +75,7 @@ const Header: React.FC = () => {
             Contact
           </NavbarLink>
         </NavbarCollapse>
-        <DarkThemeToggle className="hidden md:block" />
+        {/*<DarkThemeToggle className="hidden md:block" />*/}
       </Navbar>
     </header>
   );
