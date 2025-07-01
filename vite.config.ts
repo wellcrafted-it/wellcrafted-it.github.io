@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import legacy from "@vitejs/plugin-legacy";
 import flowbiteReact from "flowbite-react/plugin/vite";
+import {} from "vite-react-ssg";
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -69,4 +70,10 @@ export default defineConfig({
     react(),
     flowbiteReact(),
   ],
+  ssgOptions: {
+    // It will cause Hydration Failed
+    // formatting: 'minify',
+    mock: true,
+    crittersOptions: false,
+  },
 });
