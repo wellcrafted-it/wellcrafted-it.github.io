@@ -1,14 +1,19 @@
 import React from "react";
-import { Footer } from "flowbite-react";
+import {
+  Footer,
+  FooterCopyright,
+  FooterLink,
+  FooterLinkGroup,
+} from "flowbite-react";
 
 const FooterComponent: React.FC = () => {
   return (
     <Footer container>
-      <Footer.Copyright by="WellCrafted IT" href="#" year={2023} />
-      <Footer.LinkGroup>
-        <Footer.Link href="#">Privacy Policy</Footer.Link>
-        <Footer.Link href="#">Terms and Conditions</Footer.Link>
-      </Footer.LinkGroup>
+      <FooterCopyright by="WellCrafted IT B.V." href="#" year={2025} />
+      <FooterLinkGroup>
+        <FooterLink href="#">Privacy Policy</FooterLink>
+        <FooterLink href="#">Terms and Conditions</FooterLink>
+      </FooterLinkGroup>
     </Footer>
   );
 };

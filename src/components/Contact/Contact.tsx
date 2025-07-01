@@ -48,7 +48,7 @@ const Contact = () => {
                 </tr>
                 <tr>
                   <th>BTW:</th>
-                  <td>NL003922084B05</td>
+                  <td>NL868110255B01</td>
                 </tr>
               </tbody>
             </table>

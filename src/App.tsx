@@ -1,6 +1,5 @@
 import "./App.css";
 import Header from "./components/UI/Header";
-import { Flowbite } from "flowbite-react";
 import customTheme from "./theme/custom-theme";
 import FooterComponent from "./components/UI/FooterComponent";
 import ServicesComponent from "./components/Services/ServicesComponent";
@@ -9,9 +8,10 @@ import Hero from "./components/Hero/Hero";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Experience from "./components/Experience/Experience";
 import Contact from "./components/Contact/Contact";
+import { ThemeProvider } from "flowbite-react";
 
 const App = () => (
-  <Flowbite theme={{ theme: customTheme, mode: "auto" }}>
+  <ThemeProvider theme={customTheme}>
     <Header />
     <Hero />
     <section>
@@ -30,7 +30,7 @@ const App = () => (
       <Contact />
     </section>
     <FooterComponent />
-  </Flowbite>
+  </ThemeProvider>
 );
 
 export default App;

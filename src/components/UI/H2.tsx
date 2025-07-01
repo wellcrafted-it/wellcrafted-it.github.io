@@ -16,5 +16,4 @@ const H2: React.FC<Props> = (props: Props) => {
   );
 };
 
-// eslint-disable-next-line react-refresh/only-export-components
 export default H2;

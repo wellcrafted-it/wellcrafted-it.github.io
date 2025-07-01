@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import legacy from "@vitejs/plugin-legacy";
+import flowbiteReact from "flowbite-react/plugin/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -66,5 +67,6 @@ export default defineConfig({
       modernPolyfills: true,
     }),
     react(),
+    flowbiteReact(),
   ],
 });
